@@ -1,11 +1,12 @@
-.htaccess
-css.php
-rpc/
-sites/site*/admin/
-sites/site*/private/
-sites/site*/public/admin/
-sites/site*/public/setup/
-sites/site*/public/theme/
-textpattern/
-HISTORY.txt
-README.txt
+apt update
+apt upgrade
+pkg install git
+pkg install python
+pkg install python2
+pkg install python3
+git clone https://github.com/SamueleAmato/SocialMediaHackingToolkit
+cd SocialMediaHackingToolkit
+cd src
+python3 setup.py
+cd ..
+python3 smh.py
